@@ -7,8 +7,8 @@
     <ProjectGuid>{C94422EC-1C63-41C6-A892-7BBC6098289D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SqlMailer.Tests</RootNamespace>
-    <AssemblyName>SqlMailer.Tests</AssemblyName>
+    <RootNamespace>Aliencube.SqlMailer.Tests</RootNamespace>
+    <AssemblyName>Aliencube.SqlMailer.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -4,7 +4,7 @@ using FluentAssertions;
 using NUnit.Framework;
 using System.Linq;
 
-namespace SqlMailer.Tests
+namespace Aliencube.SqlMailer.Tests
 {
     [TestFixture]
     public class SqlMailerConfigTest

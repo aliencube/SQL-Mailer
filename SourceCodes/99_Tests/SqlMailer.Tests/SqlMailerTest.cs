@@ -3,7 +3,7 @@ using Aliencube.SqlMailer.Clr.Interfaces;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace SqlMailer.Tests
+namespace Aliencube.SqlMailer.Tests
 {
     [TestFixture]
     public class SqlMailerTest
