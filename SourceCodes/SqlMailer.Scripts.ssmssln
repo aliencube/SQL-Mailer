@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SqlMailer.Scripts", "90_Scripts\SqlMailer.Scripts\SqlMailer.Scripts.ssmssqlproj", "{C9F4F45A-18F6-484D-B7A3-9D85ACE196DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9F4F45A-18F6-484D-B7A3-9D85ACE196DF}.Default|Default.ActiveCfg = Default
+		{4D033EBA-1F03-4F39-A195-AF4CABD82478}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

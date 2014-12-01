@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7A1A1CD3-A8A9-4E40-BCFF-69A1CF98825A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Documents", "00_Documents", "{DA94CC35-2E6D-413B-8667-81DF7CA4DDF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{3E13461B-2522-4985-8492-6688970AFA31}"
@@ -12,16 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Apps", "02_Apps", "{DA51A92C-0382-4402-95E5-BE717213176E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99_Tests", "99_Tests", "{6E2DAF76-6F5A-4029-879A-FDCD101A40E5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlMailer.ClrAssembly", "02_Apps\SqlMailer.ClrAssembly\SqlMailer.ClrAssembly.csproj", "{93404878-3B81-4404-A94E-6FAD6C385BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlMailer.Tests", "99_Tests\SqlMailer.Tests\SqlMailer.Tests.csproj", "{C94422EC-1C63-41C6-A892-7BBC6098289D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99_Tests", "99_Tests", "{6E2DAF76-6F5A-4029-879A-FDCD101A40E5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7A1A1CD3-A8A9-4E40-BCFF-69A1CF98825A}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlMailer.Tests", "99_Tests\SqlMailer.Tests\SqlMailer.Tests.csproj", "{C94422EC-1C63-41C6-A892-7BBC6098289D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
